@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+
 import avant from '../public/images/avant.png'
 import apres from '../public/images/apres.png'
 import image1 from '../public/images/renova.png'
@@ -49,7 +50,8 @@ const Home: NextPage = () => {
               <div className="slider overflow-hidden w-[42.7%] h-[40%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)]
               3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%] 
               2xl:w-[650px*7] 2xl:w-[92%] 2xl:h-[50%]
-              xl:w-[650px*7] xl:w-[63.5%] xl:h-[40%] m-auto"
+              xl:w-[650px*7] xl:w-[63.5%] xl:h-[40%] m-auto
+              lg:w-[650px*7] lg:w-[84.7%] "
               >
                 <div className="slides flex shadow-[10px_10px_101px_0_rgb(0,0,0)] animate-glisse ">
                   <Image className='w-full slide float-left' 
