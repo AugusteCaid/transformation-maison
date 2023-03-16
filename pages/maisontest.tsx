@@ -30,19 +30,26 @@ export default function Maisontest({photos})  {
               2xl:h-
               xl:text-2xl'>galerie photos</h1>
             </div>
-            {/* vérifier l'erreur  
+            {/* vérifier l'erreur  */}
             <div>
-            function maison ({ photos }) {
-                return (
+          {/*   function maison ({ photos }) {
+                return (  */}
                     <ul>
                         {photos.map((photo) => (
-                            <li>{photo.title}</li>
+                            <li key={photo._id}>
+                              <p className='uppercase font-bold '>  {photo.nom}</p>
+                              <p>  {photo.alt}</p>
+                              <p>  {photo.legende}</p>
+                              <p>  {photo.width}</p>
+                              <p>  {photo.alt}</p>
+                                </li>
+                            
                         ))}
                     </ul>
-                    )
-            }
+         {/*            )
+            }  */}
             </div>
-            */}
+          
             <div className='home w-screen h-screen flex justify-around items-center m-0 p-0
               xl:block'>
               
@@ -115,18 +122,18 @@ export default function Maisontest({photos})  {
     
 };
 
-// export async function getStaticProps() {
-//     const {db} = await connectToDatabase();
+ export async function getStaticProps() {
+   const {db} = await connectToDatabase();
 
-//     const maison = await db
-//         .collection("photos")
-//         .find({}) 
-//         .toArray();
+   const photos = await db
+      .collection("photos")
+      .find({}) 
+      .toArray();
 
-//     return {
-//         props:{
-//             photos:JSON.parse(JSON.stringify(photos)),
-//         },
-//     }
-// }
+ return {
+   props:{
+          photos:JSON.parse(JSON.stringify(photos)),
+      },
+    }
+}
   
