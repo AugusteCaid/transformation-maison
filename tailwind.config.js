@@ -8,14 +8,21 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'glisse': 'glisse 15s infinite ease-in-out'
+        'glisse': 'glisse 15s infinite ease-in-out',
+            
       },
+
+        
+
       keyframes: {
         glisse: {
           // largeur de reference de base 650px
-          '100%': {transform: 'translatex(-3900px)'},
-        }
-      }
+          '100%': {transform: 'translatex(-3900px)'}
+        },
+        
+      },
+
+      
 
 
       

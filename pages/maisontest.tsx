@@ -34,15 +34,15 @@ export default function Maisontest({photos})  {
             <div>
           {/*   function maison ({ photos }) {
                 return (  */}
-                    <ul>
+                    <ul className='m-10'>
                         {photos.map((photo) => (
                             <li key={photo._id}>
                               <p className='uppercase font-bold '>  {photo.nom}</p>
                               <p>  {photo.alt}</p>
                               <p>  {photo.legende}</p>
                               <p>  {photo.width}</p>
-                              <p>  {photo.alt}</p>
-                                </li>
+                              <p>  {photo.height}</p>
+                            </li>
                             
                         ))}
                     </ul>
@@ -68,37 +68,64 @@ export default function Maisontest({photos})  {
                 <br />
               </div>
               
+              <div>
 
-              <div className="slider overflow-hidden w-[42.7%] h-[40%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)]
-              3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%] 
-              2xl:w-[650px*7] 2xl:w-[92%] 2xl:h-[50%]
-              xl:w-[650px*7] xl:w-[63.5%] xl:h-[40%] m-auto
-              lg:w-[650px*7] lg:w-[84.7%] "
+              </div>
+              <div className="slider overflow-hidden w-[42.7%] h-[50%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)]
+                3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%] 
+                2xl:w-[650px*7] 2xl:w-[92%] 2xl:h-[50%]
+                xl:w-[650px*7] xl:w-[63.5%] xl:h-[40%] m-auto
+                lg:w-[650px*7] lg:w-[84.7%] "
               >
+                
                 <div className="slides flex shadow-[10px_10px_101px_0_rgb(0,0,0)] animate-glisse ">
+
+                  {/* intégrer la legende en dessous de chaque image qui lui est attribuée */}
+                  
                   <Image className='w-full slide float-left' 
-                  src={image1} alt="première diapo de la carrousel"></Image>
+                    src={image1} alt="première diapo de la carrousel">                                              
+                  </Image>                  
+                  
                   <Image className='w-full slide float-left'
-                  src={image2} alt="deuxième diapo de la carrousel"></Image>
+                  src={image2} alt="deuxième diapo de la carrousel">
+                  </Image>
+
                   <Image className='w-full slide float-left' 
-                  src={image3} alt="troisième diapo de la carrousel"></Image>
+                  src={image3} alt="troisième diapo de la carrousel">                    
+                  </Image>
+
                   <Image className='w-full slide float-left' 
-                  src={image4} alt="quatrième diapo de la carrousel"></Image>
+                  src={image4} alt="quatrième diapo de la carrousel">
+                  </Image>
+
                   <Image className='w-full slide float-left' 
-                  src={image5} alt="cinquième diapo de la carrousel"></Image>
+                  src={image5} alt="cinquième diapo de la carrousel">
+                  </Image>
+
                   <Image className='w-full slide float-left' 
-                  src={image6} alt="sixième diapo de la carrousel"></Image>
+                  src={image6} alt="sixième diapo de la carrousel">
+                  </Image>
+
                   <Image className='w-full slide float-left' 
-                  src={image1} alt="retour à la première diapo"></Image>
+                  src={image1} alt="retour à la première diapo">
+                  </Image>
+
                 </div>
-                <div className="description">
-                  <p></p>
+              </div>
+              <div className="slider overflow-hidden w-[42.7%] h-[50%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)]
+                3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%] 
+                2xl:w-[650px*7] 2xl:w-[92%] 2xl:h-[50%]
+                xl:w-[650px*7] xl:w-[63.5%] xl:h-[40%] m-auto
+                lg:w-[650px*7] lg:w-[84.7%] "
+              >
+                
+                <div className="slides flex shadow-[10px_10px_101px_0_rgb(0,0,0)] animate-glisse ">
+
+                  
+
                 </div>
               </div>
               <br />
-
-
-
               <div className="apres">
                 <div className="after m-auto w-[70%] h-[60%] shadow-[10px_10px_101px_0_rgb(0,0,0)] rounded-2xl
                   xl:w-1/5">

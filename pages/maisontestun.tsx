@@ -72,35 +72,21 @@ const Home: NextPage = () => {
                 </div>
                 <br />
 
-                <div className="slider overflow-hidden w-[42.7%] h-[40%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)] m-auto"
-                // 3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%]" 
+                <div className="slider overflow- w-[42.7%] h-[40%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)] m-auto"
+                // 3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%] 
                 // 2xl:w-[650px*7] 2xl:w-[92%] 2xl:h-[50%]
                 // xl:w-[650px*7] xl:w-[63.5%] xl:h-[40%] m-auto
                 // lg:w-[650px*7] lg:w-[84.7%] "
                 >
-                  <div className="slides w-[1470%] flex shadow-[10px_10px_101px_0_rgb(0,0,0)] animate-glisse
-                    ">
+                  <div className="slides w-[1473%] flex shadow-[10px_10px_101px_0_rgb(0,0,0)]  animate-glisse">
 
-                      <p className='w-[100%] slide ml-24'>travaux 1er pièce
-                      </p>
-                      <p className='w-[100%] slide float-left
-                      
-                      '>travaux 2ème pièce</p>
-                      <p className='w-[100%] slide float-left
-                      
-                      '>travaux 4ème pièce</p>
-                      <p className='w-[100%] slide float-left
-                      
-                      '>Pièce de stockage</p>
-                      <p className='w-[100%] slide float-left
-                      
-                      '>Ponçage plafond</p>
-                      <p className='w-[100%] slide float-left
-                      
-                      '>Préparation peinture</p>
-                      <p className='w-[100%] slide float-left
-                      
-                      '>travaux 1er pièce</p>
+                      <p className='w-[100%] slide ml-24'>travaux 1er pièce</p>
+                      <p className='w-[100%] slide float-left'>travaux 2ème pièce</p>
+                      <p className='w-[100%] slide float-left'>travaux 4ème pièce</p>
+                      <p className='w-[100%] slide float-left'>Pièce de stockage</p>
+                      <p className='w-[100%] slide float-left'>Ponçage plafond</p>
+                      <p className='w-[100%] slide float-left'>Préparation peinture</p>
+                      <p className='w-[100%] slide float-left'>travaux 1er pièce</p>
 
                   </div>
                 </div>
