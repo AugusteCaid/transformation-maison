@@ -72,7 +72,7 @@ const Home: NextPage = () => {
                 </div>
                 <br />
 
-                <div className="slider overflow- w-[42.7%] h-[40%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)] m-auto"
+                <div className="slider overflow-hidden w-[42.7%] h-[40%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)] m-auto"
                 // 3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%] 
                 // 2xl:w-[650px*7] 2xl:w-[92%] 2xl:h-[50%]
                 // xl:w-[650px*7] xl:w-[63.5%] xl:h-[40%] m-auto
