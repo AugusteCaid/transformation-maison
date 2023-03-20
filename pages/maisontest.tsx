@@ -14,7 +14,7 @@ import image4 from '../public/images/renovd.png'
 import image5 from '../public/images/renove.png'
 import image6 from '../public/images/renovf.png'
 
-interface photosProps {
+interface photos {
   photos: [
     nom: string,
     alt: string,
