@@ -47,13 +47,14 @@ const Home: NextPage = () => {
               </div>
               
               <div>
-                <div className="slider overflow-hidden w-[42.7%] h-[40%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)]
-                3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%] 
-                2xl:w-[650px*7] 2xl:w-[92%] 2xl:h-[50%]
-                xl:w-[650px*7] xl:w-[63.5%] xl:h-[40%] m-auto
-                lg:w-[650px*7] lg:w-[84.7%] "
+                <div className="slider overflow-hidden m-auto w-[650px*7] w-[80%]  h-[40%] w-[650px*7] rounded-2xl shadow-  [10px_10px_101px_0_rgb(0,0,0)]"
+                  // 3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%] 
+                  // 2xl:w- 2xl:w-[71%] 2xl:h-[50%]
+                  // xl:w-[650px*7] xl:w-[40%] m-auto
+                  // lg:w-[650px*7] lg:w-[54.7%] "
                 >
-                  <div className="slides flex shadow-[10px_10px_101px_0_rgb(0,0,0)] animate-glisse ">
+                  <div className="slides flex shadow-[10px_10px_101px_0_rgb(0,0,0)] animate-animate">
+
                     <Image className='w-full slide float-left text-center' 
                     src={image1} alt="première diapo de la carrousel"></Image>                  
                     <Image className='w-full slide float-left'
@@ -72,18 +73,21 @@ const Home: NextPage = () => {
                 </div>
                 <br />
 
-                <div className="slider overflow-hidden w-[42.7%] h-[40%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)] m-auto"
-                // 3xl:w-[650px*7] 3xl:w-[650px] 3xl:h-[35%]" 
-                // 2xl:w-[650px*7] 2xl:w-[92%] 2xl:h-[50%]
-                // xl:w-[650px*7] xl:w-[63.5%] xl:h-[40%] m-auto
-                // lg:w-[650px*7] lg:w-[84.7%] "
+                <div className="slider overflow-hidden w-[80%]  h-[40%] w-[650px*7] rounded-2xl shadow-[10px_10px_101px_0_rgb(0,0,0)] m-auto"
+                  // 3xl:w- 3xl:w-[72%] 3xl:h-[35%] 
+                  // 2xl:w-[650px*7] 2xl:w-[60%] 2xl:h-[50%]
+                  // xl:w-[650px*7] xl:w-[40.5%] xl:h-[40%] m-auto
+                  // lg:w-[650px*7] lg:w-[55%] "
                 >
-                  <div className="slides w-[1470%] flex shadow-[10px_10px_101px_0_rgb(0,0,0)] animate-glisse
+                  <div className="slides w-[600%] text-center flex shadow-[10px_10px_101px_0_rgb(0,0,0)] animate-glisse
+                    // 3xl:w-[700%] 
+                    // 2xl:w- 2xl:w-[712%] 
+                    // xl:w-[650px*7]  xl:w-[696%]
                     ">
 
-                      <p className='w-[100%] slide ml-24'>travaux 1er pièce
+                      <p className='w-[100%] slide ml-24 3xl:m-0 2xl:'>travaux 1er pièce
                       </p>
-                      <p className='w-[100%] slide float-left
+                      <p className='w-[100%] slide float-left 
                       
                       '>travaux 2ème pièce</p>
                       <p className='w-[100%] slide float-left
@@ -106,7 +110,7 @@ const Home: NextPage = () => {
                 </div>
               </div>
 
-              <div className="apres">
+              <div className="apres xl:">
                 <div className="after m-auto w-[70%] h-[60%] shadow-[10px_10px_101px_0_rgb(0,0,0)] rounded-2xl
                   xl:w-1/5">
                   <Image className='rounded-2xl' src={apres} alt="diapo de la pièce terminé de renover"></Image>
