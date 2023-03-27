@@ -14,18 +14,23 @@ import image4 from '../public/images/renovd.png'
 import image5 from '../public/images/renove.png'
 import image6 from '../public/images/renovf.png'
 
-interface photosProps {
-  photos: [
-    nom: string,
+// interface photoProps {
+//  
+//     nom: string,
+//     alt: string,
+//     legende: string, 
+//     width: string,
+//     height: string
+//   
+// }
+
+
+export default function Maisontest(photos:{ 
+   nom: string,
     alt: string,
     legende: string, 
     width: string,
-    height: string
-  ]
-}
-
-
-export default function Maisontest({photos})  {
+    height: string})  {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center py-2">
         <Head>
@@ -39,10 +44,10 @@ export default function Maisontest({photos})  {
               2xl:h-
               xl:text-2xl'>galerie photos</h1>
             </div>
-            {/* vérifier l'erreur  */}
+  
             <div>
-          {/*   function maison ({ photos }) {
-                return (  */}
+        
+        
                     <ul>
                         {photos.map((photo) => (
                             <li key={photo._id}>
@@ -55,8 +60,7 @@ export default function Maisontest({photos})  {
                             
                         ))}
                     </ul>
-         {/*            )
-            }  */}
+       
             </div>
           
             <div className='home w-screen h-screen flex justify-around items-center m-0 p-0
