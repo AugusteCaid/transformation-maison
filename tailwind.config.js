@@ -28,9 +28,7 @@ module.exports = {
           '75%, 85%': { transform: 'translatey(-225px)' },
           '90%, 100%': { transform: 'translateY(-270px)'}
         },
-      },
-
-      
+      },  
 
 
       
